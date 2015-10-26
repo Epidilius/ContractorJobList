@@ -1,0 +1,48 @@
+Action tabs for the estimate review?
+	Tab for price, description, pictures, etc
+
+In the action bar, have a button that brings you to the map
+	Use the "go to my location" button image
+	
+Use the person list style from NuWayve for the list of jobs
+
+Make a web form to add new jobs
+	They get stored in a DB
+	The app will check for new jobs every interval
+	App will also check on a pull down to refresh
+	
+App has a background service
+	Service runs when you close the app
+	Checks for jobs every interval
+	If found, alerts the user
+	
+	
+Folder Layout:
+	Jobs
+		Available
+			Job 1
+				desc.txt
+				price.txt
+				pic1.png
+				pic2.png
+				...
+		Taken
+			Joel
+				Complete
+					Job 3
+						desc.txt
+						...
+					Job4
+						desc.txt
+						...
+				WorkingOn
+					Job 2
+						...
+			John
+				Complete
+				WorkingOn
+					Job 5
+						...
+			Jon
+			OtherPerson
+			...
